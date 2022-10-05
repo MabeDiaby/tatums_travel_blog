@@ -12,15 +12,35 @@ body {
 
 article {
     background-image: linear-gradient(to bottom right, #FCECC0, #FADECB, #F7D0D5);
+    border-radius: 0.75em;
+    padding: 13px;
+    box-shadow: 5px 10px #0505052c;
 }
 
 header {
     background-image: url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
     background-size: cover;
     color: azure;
+    border-radius: 0.75em;
+    padding: 50px;
+    box-shadow: 5px 10px #0505052c;
+    text-shadow: 2px 2px #ff00008f;
+}
+
+.subheading {
+    border-bottom: 2px #c38991 solid;
 }
 
 a {
     color: lightseagreen;
     text-decoration: none;
+}
+
+img {
+    display: block;
+    height: 20%;
+    border: lightseagreen;
+    border-radius: 0.75em;
+    margin-bottom: 10px;
+    box-shadow: 5px 10px #0505052c;
 }
